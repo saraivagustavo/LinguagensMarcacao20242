@@ -29,6 +29,9 @@ ol {
     padding: 5px;
 }
 
+.infos {
+    text-align: center;
+}
 .minhadiv {
     border: 2px dashed black;
     background-color: lightgray;
