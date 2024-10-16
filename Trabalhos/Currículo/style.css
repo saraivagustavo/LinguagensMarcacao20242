@@ -1,0 +1,38 @@
+#nome {
+    text-align: center;
+    color: darkblue;
+}
+
+#foto {
+    text-align: center;
+}
+
+h2 {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+h2:hover {
+    background-color: darkgray;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+.infos p {
+    background-color: lightblue;
+    padding: 5px;
+}
+
+.minhadiv {
+    border: 2px dashed black;
+    background-color: lightgray;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
