@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Protest+Riot&display=swap');
+
+/* Estilo Geral */
+body {
+    background-color: rgb(28, 79, 40);
+    font-family: "Playwrite GB S", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
+/* Responda a pergunta segundo sua intuição: para que serve a propriedade width e margin? R: A propriedade width define a largura do elemento, enquanto a propriedade margin define a margem do elemento. */
+
+/* estilização do cabeçalho */
+header {
+    background-color: rgb(150, 31, 31);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: white;
+    margin: 0;
+}
+
+/* estilização da parte de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(28, 79, 40);
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: inline-block;
+}
+/* Responda a pergunta em forma de comentário no código: para que serve a propriedade decoration? R: A propriedade decoration serve para definir a decoração de texto de um elemento, como sublinhado, tachado, sublinhado duplo, etc. */
+
+nav ul li a:hover {
+    color: gray;
+}
+
+/* estilização do conteúdo principal da página */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 2em;
+    color: rgb(28, 79, 40);
+    margin: 10px 0;
+}
+
+main p {
+    font-size: 1.5em;
+}
+
+main p span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* estilização da parte de lista de pratos */
+ol, ol li {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+ol a {
+    color: black;
+    text-decoration: none;
+}
+
+ol a:hover {
+    color: gray;
+}
+
+/* imagens */
+.imagem img {
+    width: 100%;
+    height: auto;
+}
+
+/* rodapé da página */
+footer {
+    background-color: rgb(150, 31, 31);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Protest+Riot&display=swap');
+
+body {
+    background-color: rgb(28, 79, 40);
+    font-family: "Playwrite GB S", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(150, 31, 31);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(28, 79, 40);
+    margin-top: 20px;
+}
+
+p, td, th {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* estilização do menu de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(28, 79, 40);
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid rgb(150, 31, 31);
+}
+
+th {
+    background-color: rgb(150, 31, 31);
+    color: white;
+    font-size: 1.5em;
+}
+
+td {
+    font-family: "Playwrite GB S", sans-serif;
+    font-size: 1.2em;
+    color: rgb(28, 79, 40);
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+/* estilização do rodapé */
+footer {
+    background-color: rgb(150, 31, 31);
+    color: white;
+    padding: 10px 0;
+    font-size: 1em;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1em;
+    margin: 0;
+}
