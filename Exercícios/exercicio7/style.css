@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: #333;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    z-index: 1; 
+    /* O que faz a propriedade z-index?
+    Resposta: A propriedade z-index controla a ordem de empilhamento de elementos.*/
+}
+
+.container img {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    border: 2px solid green;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    /*Como faria para centralizar a imagem?
+    Resposta: Teríamos que colocar o margin: auto; para centralizar a imagem em relação ao container*/
+}
+
+.centro {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    z-index: 999;
+}
+
+.texto{
+    text-align: center;
+    align-items: center;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
